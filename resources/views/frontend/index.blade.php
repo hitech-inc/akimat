@@ -310,12 +310,12 @@
 					<div class="prices-of-gsm">
 						<h3>Цена на ГСМ</h3>
 						<ul>
-							<li>АИ - 80<span class="dotted-b"></span><a href="#">8.54</a></li>
-							<li>АИ - 62<a href="#">132.93</a></li>
-							<li>АИ - 95/96<a href="#">146.01</a></li>
-							<li>АИ - 98<a href="#">153.85</a></li>
-							<li>ДТз<a href="#">162.79</a></li>
-							<li>ДТл<a href="#">132.76</a></li>
+							<li class="gsm-li">АИ - 80<span class="dotted-b"></span><a href="#">8.54</a></li>
+							<li class="gsm-li">АИ - 62<span class="dotted-b"></span><a href="#">132.93</a></li>
+							<li class="gsm-li">АИ - 95/96<span class="dotted-b"></span><a href="#">146.01</a></li>
+							<li class="gsm-li">АИ - 98<span class="dotted-b"></span><a href="#">153.85</a></li>
+							<li class="gsm-li">ДТз<span class="dotted-b"></span><a href="#">162.79</a></li>
+							<li class="gsm-li">ДТл<span class="dotted-b"></span><a href="#">132.76</a></li>
 						</ul>
 					</div>
 					<div class="popular-services">
