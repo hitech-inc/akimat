@@ -1,3 +1,5 @@
+
+// выпадающее меню левого сайдбара
 $(".dd").hover(function(){
 	$(this).find(".cat-sub-menu").show(500).animate({
 		top: '20'
@@ -9,3 +11,10 @@ $(".dd").hover(function(){
 	});
 	$(this).find("span").css({"transform" : "rotateZ(0)"}).delay(1000);
 });
+
+// Выпадающее меню в хедере Государственные ресурсы
+$(".drop").hover( function() {
+	$(this).find(".dropdown").fadeIn(200)
+}, function() {
+	$(this).find(".dropdown").fadeOut(200);
+} );

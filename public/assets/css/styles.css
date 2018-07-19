@@ -157,13 +157,14 @@ li.drop:hover{
 	background: url(../img/icons/arrow-down.png) no-repeat 15px 10px;
 }
 
-li.drop:hover div.drop-wrapper ul.dropdown{
+/*li.drop:hover div.drop-wrapper ul.dropdown{
 	background-color: #fff;
 	display: block;
 	width: auto;
-}
+}*/
 
 ul.dropdown{
+	background-color: #fff;
 	display: none;
 	position: absolute;
 	top: 0;
