@@ -41,6 +41,10 @@ a.sections-link-wrap,
 	text-decoration: none;
 }
 
+#mySidenav{
+	display: none;
+}
+
 /*start header*/
 
 .sidebar_wrapper{
@@ -68,7 +72,7 @@ a.sections-link-wrap,
 	width: 100%;
 	/*height: 628px;*/
 	text-transform: uppercase;
-	outline: 1px solid black;
+	/*outline: 1px solid black;*/
 }
 
 .top_line{
@@ -76,7 +80,7 @@ a.sections-link-wrap,
 	width: 100%;
 	/*height: 60px;*/
 	padding: 17px 35px;
-	outline: 1px solid green;
+	/*outline: 1px solid green;*/
 }
 
 ul.top_line_content{
@@ -86,7 +90,7 @@ ul.top_line_content{
 
 .top_line_content li{
 	float: left;
-	/*width: 33.33333333333333%;*/
+	width: 33.33333333333333%;
 	list-style: none;
 	color: #334f77;
 }

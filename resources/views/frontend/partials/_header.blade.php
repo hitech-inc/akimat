@@ -41,7 +41,7 @@
 	</div>
 	<!-- End top line -->
 	<!-- menu icon -->
-	<div class="container-fluid" style="background-color: #2d527c">
+	<div class="container-fluid menu-icon-main">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="menu_icons" id="bar">

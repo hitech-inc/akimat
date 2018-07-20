@@ -8,6 +8,10 @@
 		display: none;
 	}
 
+	div.menu-icon-main{
+		background-color: #2d527c;
+	}
+
 	div.content_wrapper{
 		width: 100%;
 	}
@@ -25,6 +29,10 @@
 	.top-line-in ul.top_line_content{
 		margin-bottom: 0;
 		padding: 15px;
+	}
+
+	ul.top_line_content li{
+		width: auto;
 	}
 
 	ul.top_line_content li a{
