@@ -1,7 +1,7 @@
 <div class="slider-wrapper">
 	<div class="single-item">
 		<div class="slides slide">
-			<img src="{{ asset('assets/img/slider/slide.jpg') }}" alt="">
+			<img src="{{ asset('assets/img/slider/bydibek_audany_kiminin_apparaty.jpg') }}" alt="">
 			<div class="info-block">
 				<h3>Село Шаян</h3>
 				<p>Население</p>
@@ -11,7 +11,7 @@
 			</div>
 		</div>
 		<div class="slides slide">
-			<img src="{{ asset('assets/img/slider/slide.jpg') }}" alt="">
+			<img src="{{ asset('assets/img/slider/bydibek_audany_kiminin_apparaty.jpg') }}" alt="">
 			<div class="info-block">
 				<h3>Село Шаян 2</h3>
 				<p>Население</p>
@@ -21,7 +21,7 @@
 			</div>
 		</div>
 		<div class="slides slide">
-			<img src="{{ asset('assets/img/slider/slide.jpg') }}" alt="">
+			<img src="{{ asset('assets/img/slider/bydibek_audany_kiminin_apparaty.jpg') }}" alt="">
 			<div class="info-block">
 				<h3>Село Шаян 3</h3>
 				<p>Население</p>

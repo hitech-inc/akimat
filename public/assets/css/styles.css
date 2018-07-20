@@ -212,7 +212,7 @@ div.top_line ul.dropdown li{
 .under-slider{
 	width: 100%;
 	position: relative;
-	margin-top: -95px;
+	margin-top: -55px;
 	/*height: 148px;*/
 }
 
@@ -252,8 +252,8 @@ div.top_line ul.dropdown li{
 /*Start index page*/
 	/*poster block*/
 	.poster{
-		background: url(../img/index/poster-bg.jpg) no-repeat;
-		background-size: 100% 100%;
+		background: url(../img/index/poster-bg2.jpg) no-repeat center center;
+		background-size: cover;
 		/*height: 300px;*/
 		padding: 23px 25px;
 	}
@@ -274,7 +274,7 @@ div.top_line ul.dropdown li{
 	}
 
 	.date-wrapper{
-		background-color: #00517E;
+		/*background-color: #00517E;*/
 		display: flex;
 		margin-bottom: 20px;
 		/*display: block;*/
@@ -641,13 +641,17 @@ div.top_line ul.dropdown li{
 	}
 
 	/*mayors-report*/
-	.mayors-report{
-		background: url(../img/right-sidebar/mayors-report-bg.jpg) no-repeat;
+
+	.mayors-report, .interview{
 		background-size: 100% 100%;
 		width: 100%;
 		height: 168px;
-		margin: 50px 0;
 	}
+
+	.mayors-report{
+		background: url(../img/right-sidebar/mayors-report-bg2.jpg) no-repeat;
+		margin: 50px 0;
+	}	
 
 	.mayors-report a{
 		display: block;
@@ -655,16 +659,23 @@ div.top_line ul.dropdown li{
 		height: 100%;
 	}
 
+	.mayors-report a h3{
+		font-size: .90rem;
+		color: #fff;
+		padding-left: 120px;
+	}
+
+	.mayors-report a:hover{
+		text-decoration: none;
+	}
+
 	/*Опрос*/
 	.interview{
 		background: url(../img/right-sidebar/interview-bg.jpg) no-repeat;
-		background-size: 100% 100%;
-		width: 100%;
-		height: 168px;
 		margin-bottom: 50px;
 	}
 
-	.interview a{
+	.interview a, .mayors-report a{
 		display: flex;
 		width: 100%;
 		height: 100%;

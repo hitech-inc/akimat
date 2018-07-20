@@ -283,7 +283,9 @@
 					<div class="calendar-of-events" id="eventCalendar">
 					</div>
 					<div class="mayors-report">
-						<a href="#"></a>
+						<a href="#">
+							<h3>Отчет Акима области перед населением</h3>
+						</a>
 					</div>
 					<div class="interview">
 						<a href="#">
