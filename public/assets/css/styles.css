@@ -5,6 +5,7 @@
 @import url("eventCalendar_theme_responsive.css");
 @import url("fontawesome.min.css");
 @import url("slick.css");
+@import url("responsive.css");
 /*@import url("jquery.fullpage.min.css");*/
 
 
@@ -85,7 +86,7 @@ ul.top_line_content{
 
 .top_line_content li{
 	float: left;
-	width: 33.33333333333333%;
+	/*width: 33.33333333333333%;*/
 	list-style: none;
 	color: #334f77;
 }
@@ -1184,3 +1185,9 @@ a.main-m{
 .ai-95-96{
 	width: 43%;
 }
+
+/*When desktop*/
+.mobile-top-line{
+	display: none;
+}
+/*End when desktop*/

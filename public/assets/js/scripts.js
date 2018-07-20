@@ -18,3 +18,21 @@ $(".drop").hover( function() {
 }, function() {
 	$(this).find(".dropdown").fadeOut(200);
 } );
+
+// Мобильная версия меню
+var openMenu = document.getElementById("bar");
+var closeMenu = document.getElementById("closeSidenav");
+
+openMenu.addEventListener("click", openNav);
+closeMenu.addEventListener("click", closeNav);
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "400px";
+    $(".sidenav").css({"padding-left" : "40px"});
+    // document.getElementById("mySideNav").style.width = document.getElementById("mySideNav").style.width === "400px" ? "0" : "400px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    $(".sidenav").css({"padding-left" : "0"});
+}

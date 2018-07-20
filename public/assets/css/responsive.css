@@ -1,0 +1,135 @@
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+	
+	div.top_line, 
+	div.nav_wrapper,
+	div.sidebar_wrapper{
+		display: none;
+	}
+
+	div.content_wrapper{
+		width: 100%;
+	}
+
+	div.mobile-top-line{
+		display: block;
+	}
+
+	.top-line-in{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.top-line-in ul.top_line_content{
+		margin-bottom: 0;
+		padding: 15px;
+	}
+
+	ul.top_line_content li a{
+		font-size: .70rem;
+	}
+
+	/*Menu icons*/
+	.menu_icons{
+		width: 10%;
+		padding: 15px;
+	}
+
+	.menu_icons div{
+		width: 35px;
+		height: 5px;
+		background-color: #fff;
+		margin: 6px 0;
+	}
+
+	.sidenav .closebtn {
+	    position: absolute;
+	    top: 0;
+	    right: 25px;
+	    font-size: 36px;
+	    margin-left: 50px;
+	}
+
+	.sidenav a {
+	    padding: 8px 8px 8px 0;
+	    text-decoration: none;
+	    font-size: 25px;
+	    color: #818181;
+	    display: block;
+	    transition: 0.3s;
+	}
+
+	.sidenav {
+	    height: 100%;
+	    width: 0;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    left: 0;
+	    background-color: #F5F5F5;
+	    overflow-x: hidden;
+	    transition: 0.5s;
+	    padding-top: 60px;
+	    /*padding-left: 40px;*/
+	}
+
+	#mySidenav{
+		z-index: 9;
+	}
+
+	div.site-logo{
+		width: 50%;
+	}
+
+	.date-content p{
+		font-size: 1.2rem;
+	}
+
+	.news-imgs{
+		width: 100%;
+	}
+
+	.articles-blocks, .resp-articles-blocks{
+		width: 50%;
+		float: left;
+	}
+
+	.no-clear{
+		display: none;
+	}
+
+	div.stm-wrapper{
+		height: auto;
+	}
+
+	a.sections-link-wrap{
+		height: auto;
+	}
+
+	.sections-link-wrap img{
+		width: 100%;
+	}
+
+	div.results-wrapper img{
+		width: 100%;
+	}
+
+	div.results-wrapper, 
+	div.calendar-of-events, 
+	div.mayors-report, 
+	div.interview{
+		width: 48%;
+		float: left;
+	}
+
+	div.results-wrapper{
+		margin-right: 35px;
+	}
+
+	div.eventCalendar-wrap{
+		margin-top: 0;
+	}
+
+}

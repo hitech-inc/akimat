@@ -35,7 +35,7 @@
 
 <div class="under-slider">
 	<div class="row" style="margin-right: 0; margin-left: 0">
-		<div class="col-lg-4" style="padding-right: 0; padding-left: 0">
+		<div class="col-lg-4 col-sm-4" style="padding-right: 0; padding-left: 0">
 			<a href="#" class="a-block">
 				<div class="under-sl-cont">
 					<img src="{{ asset('assets/img/slider/under-sl-img1.jpg') }}" alt="">
@@ -45,7 +45,7 @@
 				</div>
 			</a>
 		</div>
-		<div class="col-lg-4" style="padding-right: 0; padding-left: 0">
+		<div class="col-lg-4 col-sm-4" style="padding-right: 0; padding-left: 0">
 			<a href="#" class="a-block">
 				<div class="under-sl-cont">
 					<img src="{{ asset('assets/img/slider/under-sl-img2.jpg') }}" alt="">
@@ -56,7 +56,7 @@
 				</div>
 			</a>
 		</div>
-		<div class="col-lg-4" style="padding-right: 0; padding-left: 0">
+		<div class="col-lg-4 col-sm-4" style="padding-right: 0; padding-left: 0">
 			<a href="#" class="a-block">
 				<div class="under-sl-cont">
 					<img src="{{ asset('assets/img/slider/under-sl-img3.jpg') }}" alt="">

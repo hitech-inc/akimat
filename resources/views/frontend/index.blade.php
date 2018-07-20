@@ -13,7 +13,7 @@
 					<div class="poster">
 						<h3 class="white-t">Афиша  <a href="#" class="white-t">Все мероприятия</a></h3>
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-sm-6">
 								<a href="#" class="date-wrapper" alt="">
 									<div class="date">
 										<span>18</span>
@@ -33,7 +33,7 @@
 									</div>
 								</a>
 							</div>
-							<div class="col-lg-6" style="padding-left: 0">
+							<div class="col-lg-6 col-sm-6" style="padding-left: 0">
 								<a href="#" class="date-wrapper" alt="">
 									<div class="date">
 										<span>19</span>
@@ -64,7 +64,7 @@
 							</div>
 							<div class="col-lg-6" style="padding-right: 0; padding-left: 0">
 								<a href="#" class="a-obshiy obl-link" alt=""><h4 class="t-center news-t-first">Областные</h4></a>
-								<img src="{{ asset('assets/img/news/news-obl-main-bg.jpg') }}" alt="" style="max-width: 100%">
+								<img src="{{ asset('assets/img/news/news-obl-main-bg.jpg') }}" alt="" style="max-width: 100%;" class="news-imgs">
 								<div class="articles-blocks">
 									<img src="{{ asset('assets/img/news/obl-article-1.jpg') }}" alt="">
 									<div class="article-content">
@@ -74,7 +74,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="clear"></div>
+								<div class="clear no-clear"></div>
 								<div class="articles-blocks">
 									<img src="{{ asset('assets/img/news/obl-article-2.jpg') }}" alt="">
 									<div class="article-content">
@@ -84,7 +84,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="clear"></div>
+								<div class="clear no-clear"></div>
 								<div class="articles-blocks">
 									<img src="{{ asset('assets/img/news/obl-article-1.jpg') }}" alt="">
 									<div class="article-content">
@@ -94,7 +94,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="clear"></div>
+								<div class="clear no-clear"></div>
 								<div class="articles-blocks">
 									<img src="{{ asset('assets/img/news/obl-article-2.jpg') }}" alt="">
 									<div class="article-content">
@@ -123,7 +123,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="clear"></div>
+								<div class="clear no-clear"></div>
 								<div class="resp-articles-blocks">
 									<img src="{{ asset('assets/img/news/resp-article-2.jpg') }}" alt="">
 									<div class="article-content">
@@ -133,7 +133,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="clear"></div>
+								<div class="clear no-clear"></div>
 								<div class="resp-articles-blocks">
 									<img src="{{ asset('assets/img/news/resp-article-1.jpg') }}" alt="">
 									<div class="article-content">
@@ -143,7 +143,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="clear"></div>
+								<div class="clear no-clear"></div>
 								<div class="resp-articles-blocks">
 									<img src="{{ asset('assets/img/news/resp-article-2.jpg') }}" alt="">
 									<div class="article-content">
@@ -220,7 +220,7 @@
 
 					<!-- Start sections -->
 					<div class="row">
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-sm-6">
 							<a href="#" class="sections-link-wrap">
 								<img src="{{ asset('assets/img/index/ruhani-jangiru.jpg') }}" alt="">
 								<div class="flex-block">
@@ -228,7 +228,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-sm-6">
 							<a href="#" class="sections-link-wrap">
 								<img src="{{ asset('assets/img/index/avtomatizirovannaya.jpg') }}" alt="">
 								<div class="flex-block">
@@ -236,7 +236,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-sm-6">
 							<a href="#" class="sections-link-wrap">
 								<img src="{{ asset('assets/img/index/modernizatiya.jpg') }}" alt="">
 								<div class="flex-block">
@@ -245,7 +245,7 @@
 								
 							</a>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-sm-6">
 							<a href="#" class="sections-link-wrap">
 								<img src="{{ asset('assets/img/index/assambleya.jpg') }}" alt="">
 								<div class="flex-block">
@@ -253,7 +253,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-sm-6">
 							<a href="#" class="sections-link-wrap">
 								<img src="{{ asset('assets/img/index/zakonodatelstvo.jpg') }}" alt="">
 								<div class="flex-block">
@@ -261,7 +261,7 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-sm-6">
 							<a href="#" class="sections-link-wrap">
 								<img src="{{ asset('assets/img/index/poslanie.jpg') }}" alt="">
 								<div class="flex-block">
@@ -282,6 +282,7 @@
 					</div>
 					<div class="calendar-of-events" id="eventCalendar">
 					</div>
+					<div class="clear"></div>
 					<div class="mayors-report">
 						<a href="#">
 							<h3>Отчет Акима области перед населением</h3>
@@ -292,6 +293,7 @@
 							<h3>Опрос</h3>
 						</a>
 					</div>
+					<div class="clear"></div>
 					<div class="five-bs">
 						<a href="#">
 							<img src="{{ asset('assets/img/right-sidebar/pasporta-zastroek-goroda.jpg') }}" alt="">
