@@ -27,7 +27,7 @@ openMenu.addEventListener("click", openNav);
 closeMenu.addEventListener("click", closeNav);
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "400px";
+    document.getElementById("mySidenav").style.width = "50%";
     $(".sidenav").css({"padding-left" : "40px"});
     // document.getElementById("mySideNav").style.width = document.getElementById("mySideNav").style.width === "400px" ? "0" : "400px";
 }
