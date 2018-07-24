@@ -113,10 +113,13 @@
 				<div class="comp_inner_wrap">
 					<ul class="comp_inner_drop">
 						<li><a href="/competition">Конкурсы</a></li>
+						<li><a href="/inner-competition">Внутренний конкурс</a></li>
+						<li><a href="/enpf">АО "ЕНПФ"</a></li>
+						<li><a href="/information-message">Информационное сообщение</a></li>
 					</ul>
 				</div>
 			</li>
-			<li><a href="">Туристам</a></li>
+			<li><a href="#">Туристам</a></li>
 			<li><a href="">Открытый акимат</a></li>
 			<li><a href="">Закупки</a></li>
 			<li><a href="">Пресс служба</a></li>

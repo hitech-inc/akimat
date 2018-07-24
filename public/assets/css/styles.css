@@ -1196,27 +1196,41 @@ a.main-m{
 /*End when desktop*/
 
 /*competition page*/
-.competition-wrap{
+.competition-wrap,
+.enpf-wrapper,
+.info-message-wrapper,
+.inner-competition-wrapper{
 	width: 100%;
 	text-transform: initial;
 	padding: 25px 15px;
 	font-size: .90rem;
 }
 
-.competition-wrap h1{
+.competition-wrap h1,
+.enpf-wrapper h1,
+.info-message-wrapper h1,
+.inner-competition-wrapper h1{
 	font-size: 1.5rem;
+	text-align: center;
 }
 
-.competition-wrap h2{
+.competition-wrap h2,
+.enpf-wrapper h2,
+.inner-competition-wrapper h2{
 	font-size: 1.3rem;
+	text-align: center;
 }
 
-.competition-wrap h3{
+.competition-wrap h3,
+.enpf-wrapper h3,
+.inner-competition-wrapper h3{
 	font-size: 1.2rem;
 }
 
 .competition-wrap table th, 
-.competition-wrap table td{
+.competition-wrap table td,
+.inner-competition-wrapper table th,
+.inner-competition-wrapper table td{
 	padding: 5px;
 	vertical-align: middle;
 	text-align: center;
@@ -1232,7 +1246,7 @@ h3.title_treb{
 }
 
 .comp_inner_wrap{
-	width: 148%;
+	/*width: 148%;*/
 	height: auto;
 	background-color: #2d527c;
 	position: absolute;
@@ -1260,7 +1274,25 @@ h3.title_treb{
 
 .comp_inner_drop li a{
 	display: block;
-	
+
 }
 
 /*end competition page*/
+
+/*enpf page*/
+.enpf-wrapper img{
+	max-width: 100%;
+}
+
+.enpf-wrapper h4{
+	font-size: 1.1rem;
+}
+
+.italic{
+	font-style: italic;
+}
+/*end enpf page*/
+
+.divider{
+	width:100%;
+}

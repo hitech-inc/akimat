@@ -16,4 +16,19 @@ class SiteController extends Controller
     {
     	return view('frontend.competition');
     }
+
+    public function enpf()
+    {
+    	return view('frontend.enpf');
+    }
+
+    public function infoMessage()
+    {
+        return view('frontend.information-message');
+    }
+
+    public function innerCompetition()
+    {
+        return view('frontend.inner-competition');
+    }
 }
