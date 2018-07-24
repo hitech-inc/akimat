@@ -5,7 +5,7 @@
 				<div class="f-blocks-inner">
 					<p>&copy; &nbsp;2018</p>
 					<p>Официальный Интернет - ресурс</p>
-					<p><strong>Акимата Байдибекского района</strong></p>
+					<p><strong>Акимата района Байдибек </strong></p>
 				</div>
 			</div>
 			<div class="col-lg-4">
