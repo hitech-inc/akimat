@@ -11,4 +11,9 @@ class SiteController extends Controller
     {
     	return view('frontend.index');
     }
+
+    public function competition()
+    {
+    	return view('frontend.competition');
+    }
 }

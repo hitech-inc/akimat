@@ -73,7 +73,7 @@
 			<p>Официальный интернет ресурс</p>
 			<h1>Акимат <br> Байдибекского <br> района</h1>
 		</div>
-		<a href="#">События</a>
+		<a href="/competition">События</a>
 		<a href="#">Туристам</a>
 		<a href="#">Открытый акимат</a>
 		<a href="#">Закупки</a>
@@ -108,7 +108,14 @@
 	</div>
 	<div class="nav_wrapper">
 		<ul class="navigation">
-			<li><a href="">События</a></li>
+			<li class="comp_drop">
+				<a href="#">События</a>
+				<div class="comp_inner_wrap">
+					<ul class="comp_inner_drop">
+						<li><a href="/competition">Конкурсы</a></li>
+					</ul>
+				</div>
+			</li>
 			<li><a href="">Туристам</a></li>
 			<li><a href="">Открытый акимат</a></li>
 			<li><a href="">Закупки</a></li>

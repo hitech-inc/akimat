@@ -119,7 +119,6 @@ ul.top_line_content{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	outline: 1px solid blue;
 }
 
 .navigation{
@@ -1195,3 +1194,73 @@ a.main-m{
 	display: none;
 }
 /*End when desktop*/
+
+/*competition page*/
+.competition-wrap{
+	width: 100%;
+	text-transform: initial;
+	padding: 25px 15px;
+	font-size: .90rem;
+}
+
+.competition-wrap h1{
+	font-size: 1.5rem;
+}
+
+.competition-wrap h2{
+	font-size: 1.3rem;
+}
+
+.competition-wrap h3{
+	font-size: 1.2rem;
+}
+
+.competition-wrap table th, 
+.competition-wrap table td{
+	padding: 5px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+h3.title_treb{
+	font-size: .90rem;
+}
+
+.comp_drop{
+	position: relative;
+	z-index: 105;
+}
+
+.comp_inner_wrap{
+	width: 148%;
+	height: auto;
+	background-color: #2d527c;
+	position: absolute;
+	top: 20px;
+	left: -48px;
+	z-index: 99;
+	padding-top: 45px;
+	padding-bottom: 15px;
+	display: none;
+}
+
+.comp_inner_drop{
+	border-top: 1px solid #fff;
+    padding-top: 15px;
+    margin-top: -17px;
+}
+
+
+.comp_inner_drop li{
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	/*padding: 5px 0;*/
+}
+
+.comp_inner_drop li a{
+	display: block;
+	
+}
+
+/*end competition page*/

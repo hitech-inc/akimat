@@ -9,11 +9,11 @@
 
 <div class="clear"></div>
 <div class="site-logo">
-	<a href="#"><img src="{{ asset('assets/img/logos/site-logo.jpg') }}" alt=""></a>
+	<a href="/"><img src="{{ asset('assets/img/logos/site-logo.jpg') }}" alt=""></a>
 </div>
 <div class="title-block">
 	<p>Официальный интернет ресурс</p>
-	<h1>Акимат <br> Байдибекского <br> района</h1>
+	<h1>Акимат <br> района <br>Байдибек </h1>
 </div>
 <div class="categories-block">
 	<ul id="cat-menu">

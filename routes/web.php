@@ -16,3 +16,4 @@
 // });
 
 Route::get('/', 'SiteController@index');
+Route::get('/competition', 'SiteController@competition');

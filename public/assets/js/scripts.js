@@ -19,6 +19,13 @@ $(".drop").hover( function() {
 	$(this).find(".dropdown").fadeOut(200);
 } );
 
+// Выпадающее меню Событий
+$(".comp_drop").hover( function() {
+	$(this).find(".comp_inner_wrap").fadeIn(500);
+}, function () {
+	$(this).find(".comp_inner_wrap").fadeOut(500);
+} );
+
 // Мобильная версия меню
 var openMenu = document.getElementById("bar");
 var closeMenu = document.getElementById("closeSidenav");
