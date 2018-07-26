@@ -63,10 +63,6 @@ a.sections-link-wrap,
 	/*outline: 1px solid blue;*/
 }
 
-/*.inner_sidebar_wrapper{
-	display: block;
-	float: left;
-}*/
 
 .top_block_full{
 	width: 100%;
@@ -1199,7 +1195,8 @@ a.main-m{
 .competition-wrap,
 .enpf-wrapper,
 .info-message-wrapper,
-.inner-competition-wrapper{
+.inner-competition-wrapper,
+.contacts-wrapper{
 	width: 100%;
 	text-transform: initial;
 	padding: 25px 15px;
@@ -1295,4 +1292,14 @@ h3.title_treb{
 
 .divider{
 	width:100%;
+}
+
+.contacts-wrapper h2{
+	font-size: 1.3rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.contacts-wrapper p{
+	text-align: center;
 }

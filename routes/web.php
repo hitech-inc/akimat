@@ -19,4 +19,5 @@ Route::get('/', 'SiteController@index');
 Route::get('/competition', 'SiteController@competition');
 Route::get('/enpf', 'SiteController@enpf');
 Route::get('/information-message', 'SiteController@infoMessage');
-route::get('/inner-competition', 'SiteController@innerCompetition');
+Route::get('/inner-competition', 'SiteController@innerCompetition');
+Route::get('/contacts', 'SiteController@contacts');

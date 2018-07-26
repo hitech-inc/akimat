@@ -31,4 +31,9 @@ class SiteController extends Controller
     {
         return view('frontend.inner-competition');
     }
+
+    public function contacts()
+    {
+        return view('frontend.contacts');
+    }
 }

@@ -79,7 +79,7 @@
 		<a href="#">Закупки</a>
 		<a href="#">Пресс служба</a>
 		<a href="#">Медиа</a>
-		<a href="#">Контакты</a>
+		<a href="/contacts">Контакты</a>
 	</div>
 	<!-- End menu -->
 	
@@ -124,7 +124,7 @@
 			<li><a href="">Закупки</a></li>
 			<li><a href="">Пресс служба</a></li>
 			<li><a href="">Медиа</a></li>
-			<li><a href="">Контакты</a></li>
+			<li><a href="contacts">Контакты</a></li>
 		</ul>
 	</div>
 </div>
