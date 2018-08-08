@@ -34,7 +34,7 @@ openMenu.addEventListener("click", openNav);
 closeMenu.addEventListener("click", closeNav);
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "50%";
+    document.getElementById("mySidenav").style.width = "100%";
     $("#mySidenav").css({"display" : "block"});
     $(".sidenav").css({"padding-left" : "40px"});
     // document.getElementById("mySideNav").style.width = document.getElementById("mySideNav").style.width === "400px" ? "0" : "400px";
